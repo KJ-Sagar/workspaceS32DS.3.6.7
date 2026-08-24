@@ -1,0 +1,110 @@
+23:07:53 **** Build of configuration Debug_FLASH for project Pwm_example_S32K344 ****
+make -j12 all 
+Building file: ../src/main.c
+Building file: ../generate/src/CDD_Mcl_Cfg.c
+Building file: ../generate/src/CDD_Mcl_VS_0_PBcfg.c
+Building file: ../generate/src/Clock_Ip_Cfg.c
+Building file: ../generate/src/Dma_Ip_Cfg.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@src/main.args" -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/CDD_Mcl_Cfg.args" -MMD -MP -MF"generate/src/CDD_Mcl_Cfg.d" -MT"generate/src/CDD_Mcl_Cfg.o" -o "generate/src/CDD_Mcl_Cfg.o" "../generate/src/CDD_Mcl_Cfg.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/CDD_Mcl_Cfg.args" -MMD -MP -MF"generate/src/CDD_Mcl_VS_0_PBcfg.d" -MT"generate/src/CDD_Mcl_VS_0_PBcfg.o" -o "generate/src/CDD_Mcl_VS_0_PBcfg.o" "../generate/src/CDD_Mcl_VS_0_PBcfg.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/CDD_Mcl_Cfg.args" -MMD -MP -MF"generate/src/Clock_Ip_Cfg.d" -MT"generate/src/Clock_Ip_Cfg.o" -o "generate/src/Clock_Ip_Cfg.o" "../generate/src/Clock_Ip_Cfg.c"
+arm-none-eabi-gcc "@generate/src/CDD_Mcl_Cfg.args" -MMD -MP -MF"generate/src/Dma_Ip_Cfg.d" -MT"generate/src/Dma_Ip_Cfg.o" -o "generate/src/Dma_Ip_Cfg.o" "../generate/src/Dma_Ip_Cfg.c"
+Building file: ../generate/src/Dma_Ip_VS_0_PBcfg.c
+Building file: ../generate/src/Emios_Mcl_Ip_VS_0_PBcfg.c
+Building file: ../generate/src/Flexio_Mcl_Ip_VS_0_PBcfg.c
+Building file: ../generate/src/IntCtrl_Ip_Cfg.c
+Building file: ../generate/src/Lcu_Ip_Cfg.c
+Building file: ../generate/src/Lcu_Ip_VS_0_PBcfg.c
+Invoking: Standard S32DS C Compiler
+Building file: ../generate/src/Mpu_M7_Ip_Cfg.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/CDD_Mcl_Cfg.args" -MMD -MP -MF"generate/src/Dma_Ip_VS_0_PBcfg.d" -MT"generate/src/Dma_Ip_VS_0_PBcfg.o" -o "generate/src/Dma_Ip_VS_0_PBcfg.o" "../generate/src/Dma_Ip_VS_0_PBcfg.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/CDD_Mcl_Cfg.args" -MMD -MP -MF"generate/src/Emios_Mcl_Ip_VS_0_PBcfg.d" -MT"generate/src/Emios_Mcl_Ip_VS_0_PBcfg.o" -o "generate/src/Emios_Mcl_Ip_VS_0_PBcfg.o" "../generate/src/Emios_Mcl_Ip_VS_0_PBcfg.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/CDD_Mcl_Cfg.args" -MMD -MP -MF"generate/src/Flexio_Mcl_Ip_VS_0_PBcfg.d" -MT"generate/src/Flexio_Mcl_Ip_VS_0_PBcfg.o" -o "generate/src/Flexio_Mcl_Ip_VS_0_PBcfg.o" "../generate/src/Flexio_Mcl_Ip_VS_0_PBcfg.c"
+../src/main.c:26:10: fatal error: Pwm.h: No such file or directory
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/CDD_Mcl_Cfg.args" -MMD -MP -MF"generate/src/IntCtrl_Ip_Cfg.d" -MT"generate/src/IntCtrl_Ip_Cfg.o" -o "generate/src/IntCtrl_Ip_Cfg.o" "../generate/src/IntCtrl_Ip_Cfg.c"
+   26 | #include "Pwm.h"
+arm-none-eabi-gcc "@generate/src/CDD_Mcl_Cfg.args" -MMD -MP -MF"generate/src/Lcu_Ip_Cfg.d" -MT"generate/src/Lcu_Ip_Cfg.o" -o "generate/src/Lcu_Ip_Cfg.o" "../generate/src/Lcu_Ip_Cfg.c"
+arm-none-eabi-gcc "@generate/src/CDD_Mcl_Cfg.args" -MMD -MP -MF"generate/src/Lcu_Ip_VS_0_PBcfg.d" -MT"generate/src/Lcu_Ip_VS_0_PBcfg.o" -o "generate/src/Lcu_Ip_VS_0_PBcfg.o" "../generate/src/Lcu_Ip_VS_0_PBcfg.c"
+      |          ^~~~~~~
+arm-none-eabi-gcc "@generate/src/CDD_Mcl_Cfg.args" -MMD -MP -MF"generate/src/Mpu_M7_Ip_Cfg.d" -MT"generate/src/Mpu_M7_Ip_Cfg.o" -o "generate/src/Mpu_M7_Ip_Cfg.o" "../generate/src/Mpu_M7_Ip_Cfg.c"
+In file included from ../generate/src/Dma_Ip_Cfg.c:36:
+/home/kj/workspaceS32DS.3.6.7/Pwm_example_S32K344/generate/include/Dma_Ip_Cfg.h:39:10: fatal error: Dma_Ip_Types.h: No such file or directory
+   39 | #include "Dma_Ip_Types.h"
+      |          ^~~~~~~~~~~~~~~~
+In file included from ../generate/src/Clock_Ip_Cfg.c:47:
+/home/kj/workspaceS32DS.3.6.7/Pwm_example_S32K344/generate/include/Clock_Ip_Cfg.h:51:10: fatal error: Clock_Ip_Types.h: No such file or directory
+Finished building: ../generate/src/Mpu_M7_Ip_Cfg.c
+   51 | #include "Clock_Ip_Types.h"
+ 
+      |          ^~~~~~~~~~~~~~~~~~
+In file included from ../generate/src/CDD_Mcl_VS_0_PBcfg.c:40:
+/home/kj/workspaceS32DS.3.6.7/Pwm_example_S32K344/generate/include/CDD_Mcl_Cfg.h:42:10: fatal error: Mcl_Types.h: No such file or directory
+   42 | #include "Mcl_Types.h"
+      |          ^~~~~~~~~~~~~
+In file included from /home/kj/workspaceS32DS.3.6.7/Pwm_example_S32K344/generate/include/Emios_Mcl_Ip_Cfg.h:51,
+                 from ../generate/src/Emios_Mcl_Ip_VS_0_PBcfg.c:46:
+/home/kj/workspaceS32DS.3.6.7/Pwm_example_S32K344/generate/include/Emios_Mcl_Ip_VS_0_PBcfg.h:49:10: fatal error: Emios_Mcl_Ip_Types.h: No such file or directory
+Finished building: ../generate/src/IntCtrl_Ip_Cfg.c
+   49 | #include "Emios_Mcl_Ip_Types.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+ 
+In file included from /home/kj/workspaceS32DS.3.6.7/Pwm_example_S32K344/generate/include/Flexio_Mcl_Ip_Cfg.h:43,
+                 from ../generate/src/Flexio_Mcl_Ip_VS_0_PBcfg.c:40:
+/home/kj/workspaceS32DS.3.6.7/Pwm_example_S32K344/generate/include/Flexio_Mcl_Ip_VS_0_PBcfg.h:43:10: fatal error: Flexio_Mcl_Ip_Types.h: No such file or directory
+   43 | #include "Flexio_Mcl_Ip_Types.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+compilation terminated.
+compilation terminated.
+compilation terminated.
+compilation terminated.
+In file included from /home/kj/workspaceS32DS.3.6.7/Pwm_example_S32K344/generate/include/Lcu_Ip_Cfg.h:33,
+                 from ../generate/src/Lcu_Ip_VS_0_PBcfg.c:36:
+/home/kj/workspaceS32DS.3.6.7/Pwm_example_S32K344/generate/include/Lcu_Ip_VS_0_PBcfg.h:40:10: fatal error: Lcu_Ip_Types.h: No such file or directory
+   40 | #include "Lcu_Ip_Types.h"
+      |          ^~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from /home/kj/workspaceS32DS.3.6.7/Pwm_example_S32K344/generate/include/Lcu_Ip_Cfg.h:33,
+                 from ../generate/src/Lcu_Ip_Cfg.c:30:
+/home/kj/workspaceS32DS.3.6.7/Pwm_example_S32K344/generate/include/Lcu_Ip_VS_0_PBcfg.h:40:10: fatal error: Lcu_Ip_Types.h: No such file or directory
+   40 | #include "Lcu_Ip_Types.h"
+      |          ^~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [generate/src/subdir.mk:65: generate/src/CDD_Mcl_VS_0_PBcfg.o] Error 1
+make: *** [generate/src/subdir.mk:65: generate/src/Clock_Ip_Cfg.o] Error 1
+make: *** [generate/src/subdir.mk:65: generate/src/Dma_Ip_Cfg.o] Error 1
+make: *** [generate/src/subdir.mk:65: generate/src/Emios_Mcl_Ip_VS_0_PBcfg.o] Error 1
+make: *** [generate/src/subdir.mk:65: generate/src/Flexio_Mcl_Ip_VS_0_PBcfg.o] Error 1
+make: *** [generate/src/subdir.mk:65: generate/src/Lcu_Ip_Cfg.o] Error 1
+make: *** [generate/src/subdir.mk:65: generate/src/Lcu_Ip_VS_0_PBcfg.o] Error 1
+In file included from ../generate/src/CDD_Mcl_Cfg.c:40:
+/home/kj/workspaceS32DS.3.6.7/Pwm_example_S32K344/generate/include/CDD_Mcl_Cfg.h:42:10: fatal error: Mcl_Types.h: No such file or directory
+   42 | #include "Mcl_Types.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [generate/src/subdir.mk:65: generate/src/CDD_Mcl_Cfg.o] Error 1
+In file included from ../generate/src/Dma_Ip_VS_0_PBcfg.c:36:
+/home/kj/workspaceS32DS.3.6.7/Pwm_example_S32K344/generate/include/Dma_Ip_Cfg.h:39:10: fatal error: Dma_Ip_Types.h: No such file or directory
+   39 | #include "Dma_Ip_Types.h"
+      |          ^~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [generate/src/subdir.mk:65: generate/src/Dma_Ip_VS_0_PBcfg.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+23:07:54 Build Failed. 21 errors, 0 warnings. (took 646ms)
+

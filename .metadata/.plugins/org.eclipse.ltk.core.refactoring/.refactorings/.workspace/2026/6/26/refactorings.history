@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;fmstr_flexcan_s32k388&apos;" deleteContents="true" description="Delete resource &apos;fmstr_flexcan_s32k388&apos;" element1="/fmstr_flexcan_s32k388" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1782454543655"/>
+</session>

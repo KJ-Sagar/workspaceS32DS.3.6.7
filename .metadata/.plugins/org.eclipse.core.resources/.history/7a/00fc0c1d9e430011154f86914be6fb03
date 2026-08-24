@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+environment/project/com.nxp.s32ds.cle.arm.mbs.arm32.bare.gnu.11.4.exe.debug.1680052262/PATH/delimiter=\:
+environment/project/com.nxp.s32ds.cle.arm.mbs.arm32.bare.gnu.11.4.exe.debug.1680052262/PATH/operation=prepend
+environment/project/com.nxp.s32ds.cle.arm.mbs.arm32.bare.gnu.11.4.exe.debug.1680052262/PATH/value=
+environment/project/com.nxp.s32ds.cle.arm.mbs.arm32.bare.gnu.11.4.exe.debug.1680052262/append=true
+environment/project/com.nxp.s32ds.cle.arm.mbs.arm32.bare.gnu.11.4.exe.debug.1680052262/appendContributed=true
+environment/project/com.nxp.s32ds.cle.arm.mbs.arm32.bare.gnu.11.4.exe.debug.ram.863770067/PATH/delimiter=\:
+environment/project/com.nxp.s32ds.cle.arm.mbs.arm32.bare.gnu.11.4.exe.debug.ram.863770067/PATH/operation=prepend
+environment/project/com.nxp.s32ds.cle.arm.mbs.arm32.bare.gnu.11.4.exe.debug.ram.863770067/PATH/value=
+environment/project/com.nxp.s32ds.cle.arm.mbs.arm32.bare.gnu.11.4.exe.debug.ram.863770067/append=true
+environment/project/com.nxp.s32ds.cle.arm.mbs.arm32.bare.gnu.11.4.exe.debug.ram.863770067/appendContributed=true
+environment/project/com.nxp.s32ds.cle.arm.mbs.arm32.bare.gnu.11.4.exe.release.1297709063/PATH/delimiter=\:
+environment/project/com.nxp.s32ds.cle.arm.mbs.arm32.bare.gnu.11.4.exe.release.1297709063/PATH/operation=prepend
+environment/project/com.nxp.s32ds.cle.arm.mbs.arm32.bare.gnu.11.4.exe.release.1297709063/PATH/value=
+environment/project/com.nxp.s32ds.cle.arm.mbs.arm32.bare.gnu.11.4.exe.release.1297709063/append=true
+environment/project/com.nxp.s32ds.cle.arm.mbs.arm32.bare.gnu.11.4.exe.release.1297709063/appendContributed=true

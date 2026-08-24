@@ -1,0 +1,7 @@
+18:38:21 **** Clean-only build of configuration Debug_FLASH for project Project_1_M7_1_0 ****
+make -j12 clean 
+rm -rf ./*
+ 
+
+18:38:22 Build Finished. 0 errors, 0 warnings. (took 423ms)
+

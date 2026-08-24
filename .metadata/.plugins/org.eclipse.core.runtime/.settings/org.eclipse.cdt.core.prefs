@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+macros/workspace=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<macros>\n    <stringMacro name\="PlatformSDK_S32K3" type\="VALUE_PATH_DIR" value\="/home/kj/NXP/S32DS.3.6.7/S32DS/software/PlatformSDK_S32K3"/>\n</macros>\n

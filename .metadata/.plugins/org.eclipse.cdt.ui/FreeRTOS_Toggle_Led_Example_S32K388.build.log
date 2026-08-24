@@ -1,0 +1,72 @@
+15:25:49 **** Build of configuration Debug_FLASH for project FreeRTOS_Toggle_Led_Example_S32K388 ****
+make -j12 all 
+Building file: ../src/main.c
+Building file: ../Project_Settings/Startup_Code/Vector_Table.s
+Building file: ../Project_Settings/Startup_Code/exceptions.c
+Building file: ../Project_Settings/Startup_Code/nvic.c
+Building file: ../Project_Settings/Startup_Code/startup.c
+Invoking: Standard S32DS Assembler
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@src/main.args" -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Project_Settings/Startup_Code/Vector_Table.args" -o "Project_Settings/Startup_Code/Vector_Table.o" "../Project_Settings/Startup_Code/Vector_Table.s"
+Invoking: Standard S32DS C Compiler
+Building file: ../Project_Settings/Startup_Code/startup_cm7.s
+arm-none-eabi-gcc "@Project_Settings/Startup_Code/exceptions.args" -MMD -MP -MF"Project_Settings/Startup_Code/exceptions.d" -MT"Project_Settings/Startup_Code/exceptions.o" -o "Project_Settings/Startup_Code/exceptions.o" "../Project_Settings/Startup_Code/exceptions.c"
+arm-none-eabi-gcc "@Project_Settings/Startup_Code/exceptions.args" -MMD -MP -MF"Project_Settings/Startup_Code/nvic.d" -MT"Project_Settings/Startup_Code/nvic.o" -o "Project_Settings/Startup_Code/nvic.o" "../Project_Settings/Startup_Code/nvic.c"
+arm-none-eabi-gcc "@Project_Settings/Startup_Code/exceptions.args" -MMD -MP -MF"Project_Settings/Startup_Code/startup.d" -MT"Project_Settings/Startup_Code/startup.o" -o "Project_Settings/Startup_Code/startup.o" "../Project_Settings/Startup_Code/startup.c"
+../src/main.c:18:10: fatal error: Clock_Ip.h: No such file or directory
+Invoking: Standard S32DS Assembler
+   18 | #include "Clock_Ip.h"
+arm-none-eabi-gcc "@Project_Settings/Startup_Code/Vector_Table.args" -o "Project_Settings/Startup_Code/startup_cm7.o" "../Project_Settings/Startup_Code/startup_cm7.s"
+      |          ^~~~~~~~~~~~
+Building file: ../Project_Settings/Startup_Code/system.c
+compilation terminated.
+Invoking: Standard S32DS C Compiler
+make: *** [src/subdir.mk:20: src/main.o] Error 1
+arm-none-eabi-gcc "@Project_Settings/Startup_Code/exceptions.args" -MMD -MP -MF"Project_Settings/Startup_Code/system.d" -MT"Project_Settings/Startup_Code/system.o" -o "Project_Settings/Startup_Code/system.o" "../Project_Settings/Startup_Code/system.c"
+make: *** Waiting for unfinished jobs....
+Finished building: ../Project_Settings/Startup_Code/Vector_Table.s
+In file included from /home/kj/NXP/S32DS.3.6.7/S32DS/software/PlatformSDK_S32K3/RTD/BaseNXP_TS_T40D34M30I0R0/include/Mcal.h:65,
+Finished building: ../Project_Settings/Startup_Code/startup_cm7.s
+                 from ../Project_Settings/Startup_Code/exceptions.c:41:
+ 
+ 
+/home/kj/NXP/S32DS.3.6.7/S32DS/software/PlatformSDK_S32K3/RTD/BaseNXP_TS_T40D34M30I0R0/include/OsIf_Internal.h:45:10: fatal error: OsIf_Cfg.h: No such file or directory
+   45 | #include "OsIf_Cfg.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [Project_Settings/Startup_Code/subdir.mk:42: Project_Settings/Startup_Code/exceptions.o] Error 1
+In file included from /home/kj/NXP/S32DS.3.6.7/S32DS/software/PlatformSDK_S32K3/RTD/BaseNXP_TS_T40D34M30I0R0/include/Mcal.h:65,
+                 from /home/kj/NXP/S32DS.3.6.7/S32DS/software/PlatformSDK_S32K3/RTD/Platform_TS_T40D34M30I0R0/startup/include/system.h:90,
+                 from ../Project_Settings/Startup_Code/system.c:46:
+/home/kj/NXP/S32DS.3.6.7/S32DS/software/PlatformSDK_S32K3/RTD/BaseNXP_TS_T40D34M30I0R0/include/OsIf_Internal.h:45:10: fatal error: OsIf_Cfg.h: No such file or directory
+   45 | #include "OsIf_Cfg.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [Project_Settings/Startup_Code/subdir.mk:42: Project_Settings/Startup_Code/system.o] Error 1
+../Project_Settings/Startup_Code/nvic.c: In function ‘NVIC_SetPriorityGrouping’:
+../Project_Settings/Startup_Code/nvic.c:95:5: error: ‘S32_SCB’ undeclared (first use in this function)
+   95 |     S32_SCB->AIRCR = (S32_SCB->AIRCR & (~0x700UL)) | PriorityGroup;
+      |     ^~~~~~~
+../Project_Settings/Startup_Code/nvic.c:95:5: note: each undeclared identifier is reported only once for each function it appears in
+../Project_Settings/Startup_Code/nvic.c: In function ‘NVIC_EnableIRQ’:
+../Project_Settings/Startup_Code/nvic.c:106:5: error: ‘S32_NVIC’ undeclared (first use in this function)
+  106 |     S32_NVIC->ISER[(uint32)(IRQn) >> 5U] = (uint32)(1UL << ((uint32)(IRQn) & (uint32)0x1FU));
+      |     ^~~~~~~~
+../Project_Settings/Startup_Code/nvic.c: In function ‘NVIC_DisableIRQ’:
+../Project_Settings/Startup_Code/nvic.c:117:5: error: ‘S32_NVIC’ undeclared (first use in this function)
+  117 |     S32_NVIC->ICER[(uint32)(IRQn) >> 5U] = (uint32)(1UL << ((uint32)(IRQn) & (uint32)0x1FU));
+      |     ^~~~~~~~
+../Project_Settings/Startup_Code/nvic.c: In function ‘NVIC_SetPriority’:
+../Project_Settings/Startup_Code/nvic.c:130:5: error: ‘S32_NVIC’ undeclared (first use in this function)
+  130 |     S32_NVIC->IP[(uint32)(IRQn)] = (uint8)(((((uint32)priority) << shift)) & 0xFFUL);
+      |     ^~~~~~~~
+make: *** [Project_Settings/Startup_Code/subdir.mk:42: Project_Settings/Startup_Code/nvic.o] Error 1
+Finished building: ../Project_Settings/Startup_Code/startup.c
+ 
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+15:25:49 Build Failed. 12 errors, 0 warnings. (took 578ms)
+

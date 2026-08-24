@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+environment/buildEnvironmentInclude/com.nxp.s32ds.cle.arm.mbs.arm32.bare.gnu.10.2.exe.debug.ram.1040179427/CPATH/delimiter=\:
+environment/buildEnvironmentInclude/com.nxp.s32ds.cle.arm.mbs.arm32.bare.gnu.10.2.exe.debug.ram.1040179427/CPATH/operation=remove
+environment/buildEnvironmentInclude/com.nxp.s32ds.cle.arm.mbs.arm32.bare.gnu.10.2.exe.debug.ram.1040179427/C_INCLUDE_PATH/delimiter=\:
+environment/buildEnvironmentInclude/com.nxp.s32ds.cle.arm.mbs.arm32.bare.gnu.10.2.exe.debug.ram.1040179427/C_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/com.nxp.s32ds.cle.arm.mbs.arm32.bare.gnu.10.2.exe.debug.ram.1040179427/append=true
+environment/buildEnvironmentInclude/com.nxp.s32ds.cle.arm.mbs.arm32.bare.gnu.10.2.exe.debug.ram.1040179427/appendContributed=true

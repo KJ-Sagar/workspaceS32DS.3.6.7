@@ -1,0 +1,210 @@
+11:55:45 **** Incremental Build of configuration Debug_FLASH for project Example_S32K388_GMAC0_lwIP_FreeRTOS_v1_0_S32DS36_RTD600 ****
+make -j12 all 
+Building file: ../stacks/tcpip/code/ports/osif/rtd/OsIf_rtd_port.c
+Building file: ../stacks/tcpip/code/ports/netif/ethif/rtd/ethif_port.c
+Building file: ../stacks/tcpip/code/apps/socket_examples/socket_examples.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@stacks/tcpip/code/ports/osif/rtd/OsIf_rtd_port.args" -MMD -MP -MF"stacks/tcpip/code/ports/osif/rtd/OsIf_rtd_port.d" -MT"stacks/tcpip/code/ports/osif/rtd/OsIf_rtd_port.o" -o "stacks/tcpip/code/ports/osif/rtd/OsIf_rtd_port.o" "../stacks/tcpip/code/ports/osif/rtd/OsIf_rtd_port.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@stacks/tcpip/code/ports/netif/ethif/rtd/ethif_port.args" -MMD -MP -MF"stacks/tcpip/code/ports/netif/ethif/rtd/ethif_port.d" -MT"stacks/tcpip/code/ports/netif/ethif/rtd/ethif_port.o" -o "stacks/tcpip/code/ports/netif/ethif/rtd/ethif_port.o" "../stacks/tcpip/code/ports/netif/ethif/rtd/ethif_port.c"
+Building file: ../stacks/tcpip/code/apps/snmp_private_mib/lwip_prvmib.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@stacks/tcpip/code/apps/socket_examples/socket_examples.args" -MMD -MP -MF"stacks/tcpip/code/apps/socket_examples/socket_examples.d" -MT"stacks/tcpip/code/apps/socket_examples/socket_examples.o" -o "stacks/tcpip/code/apps/socket_examples/socket_examples.o" "../stacks/tcpip/code/apps/socket_examples/socket_examples.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@stacks/tcpip/code/apps/snmp_private_mib/lwip_prvmib.args" -MMD -MP -MF"stacks/tcpip/code/apps/snmp_private_mib/lwip_prvmib.d" -MT"stacks/tcpip/code/apps/snmp_private_mib/lwip_prvmib.o" -o "stacks/tcpip/code/apps/snmp_private_mib/lwip_prvmib.o" "../stacks/tcpip/code/apps/snmp_private_mib/lwip_prvmib.c"
+Building file: ../stacks/tcpip/code/apps/shell/shell.c
+Building file: ../stacks/tcpip/code/apps/rtp/rtp.c
+Invoking: Standard S32DS C Compiler
+Building file: ../stacks/tcpip/code/apps/netio/netio.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@stacks/tcpip/code/apps/shell/shell.args" -MMD -MP -MF"stacks/tcpip/code/apps/shell/shell.d" -MT"stacks/tcpip/code/apps/shell/shell.o" -o "stacks/tcpip/code/apps/shell/shell.o" "../stacks/tcpip/code/apps/shell/shell.c"
+Building file: ../stacks/tcpip/code/apps/netif_shutdown/netif_shutdown.c
+arm-none-eabi-gcc "@stacks/tcpip/code/apps/rtp/rtp.args" -MMD -MP -MF"stacks/tcpip/code/apps/rtp/rtp.d" -MT"stacks/tcpip/code/apps/rtp/rtp.o" -o "stacks/tcpip/code/apps/rtp/rtp.o" "../stacks/tcpip/code/apps/rtp/rtp.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@stacks/tcpip/code/apps/netio/netio.args" -MMD -MP -MF"stacks/tcpip/code/apps/netio/netio.d" -MT"stacks/tcpip/code/apps/netio/netio.o" -o "stacks/tcpip/code/apps/netio/netio.o" "../stacks/tcpip/code/apps/netio/netio.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@stacks/tcpip/code/apps/netif_shutdown/netif_shutdown.args" -MMD -MP -MF"stacks/tcpip/code/apps/netif_shutdown/netif_shutdown.d" -MT"stacks/tcpip/code/apps/netif_shutdown/netif_shutdown.o" -o "stacks/tcpip/code/apps/netif_shutdown/netif_shutdown.o" "../stacks/tcpip/code/apps/netif_shutdown/netif_shutdown.c"
+In file included from ../stacks/tcpip/code/ports/osif/rtd/OsIf_rtd_port.h:20,
+Building file: ../stacks/tcpip/code/apps/httpserver/httpserver-netconn.c
+Building file: ../stacks/tcpip/code/apps/chargen/chargen.c
+                 from ../stacks/tcpip/code/ports/osif/rtd/OsIf_rtd_port.c:79:
+Invoking: Standard S32DS C Compiler
+../RTD/include/OsIf.h:80:6: error: #error "Software Version Numbers of OsIf.h and OsIf_Internal.h are different"
+   80 |     #error "Software Version Numbers of OsIf.h and OsIf_Internal.h are different"
+      |      ^~~~~
+arm-none-eabi-gcc "@stacks/tcpip/code/apps/httpserver/httpserver-netconn.args" -MMD -MP -MF"stacks/tcpip/code/apps/httpserver/httpserver-netconn.d" -MT"stacks/tcpip/code/apps/httpserver/httpserver-netconn.o" -o "stacks/tcpip/code/apps/httpserver/httpserver-netconn.o" "../stacks/tcpip/code/apps/httpserver/httpserver-netconn.c"
+In file included from ../stacks/tcpip/lwip/src/include/lwip/sys.h:95,
+                 from ../stacks/tcpip/lwip/src/include/lwip/api.h:48,
+                 from ../stacks/tcpip/code/apps/httpserver/httpserver-netconn.c:4:
+../stacks/tcpip/code/ports/OS/FreeRTOS/arch/sys_arch.h:142: warning: "LWIP_MARK_TCPIP_THREAD" redefined
+Building file: ../stacks/tcpip/code/apps/ccov/ccov.c
+Invoking: Standard S32DS C Compiler
+Building file: ../src/device.c
+arm-none-eabi-gcc "@stacks/tcpip/code/apps/ccov/ccov.args" -MMD -MP -MF"stacks/tcpip/code/apps/ccov/ccov.d" -MT"stacks/tcpip/code/apps/ccov/ccov.o" -o "stacks/tcpip/code/apps/ccov/ccov.o" "../stacks/tcpip/code/apps/ccov/ccov.c"
+  142 | #define LWIP_MARK_TCPIP_THREAD()   sys_mark_tcpip_thread()
+Invoking: Standard S32DS C Compiler
+      | 
+arm-none-eabi-gcc "@stacks/tcpip/code/apps/chargen/chargen.args" -MMD -MP -MF"stacks/tcpip/code/apps/chargen/chargen.d" -MT"stacks/tcpip/code/apps/chargen/chargen.o" -o "stacks/tcpip/code/apps/chargen/chargen.o" "../stacks/tcpip/code/apps/chargen/chargen.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@src/device.args" -MMD -MP -MF"src/device.d" -MT"src/device.o" -o "src/device.o" "../src/device.c"
+In file included from ../stacks/tcpip/code/apps/httpserver/httpserver-netconn.c:2:
+../stacks/tcpip/lwip/src/include/lwip/opt.h:236: note: this is the location of the previous definition
+  236 | #define LWIP_MARK_TCPIP_THREAD()
+      | 
+make: *** [stacks/tcpip/code/ports/osif/rtd/subdir.mk:20: stacks/tcpip/code/ports/osif/rtd/OsIf_rtd_port.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../stacks/tcpip/lwip/src/include/lwip/sys.h:95,
+                 from ../stacks/tcpip/code/apps/rtp/rtp.c:38:
+../stacks/tcpip/code/ports/OS/FreeRTOS/arch/sys_arch.h:142: warning: "LWIP_MARK_TCPIP_THREAD" redefined
+  142 | #define LWIP_MARK_TCPIP_THREAD()   sys_mark_tcpip_thread()
+      | 
+In file included from ../stacks/tcpip/code/apps/rtp/rtp.c:34:
+../stacks/tcpip/lwip/src/include/lwip/opt.h:236: note: this is the location of the previous definition
+  236 | #define LWIP_MARK_TCPIP_THREAD()
+      | 
+In file included from ../stacks/tcpip/lwip/src/include/lwip/sys.h:95,
+                 from ../stacks/tcpip/code/apps/chargen/chargen.c:51:
+../stacks/tcpip/code/ports/OS/FreeRTOS/arch/sys_arch.h:142: warning: "LWIP_MARK_TCPIP_THREAD" redefined
+  142 | #define LWIP_MARK_TCPIP_THREAD()   sys_mark_tcpip_thread()
+      | 
+In file included from ../stacks/tcpip/code/apps/chargen/chargen.c:50:
+../stacks/tcpip/lwip/src/include/lwip/opt.h:236: note: this is the location of the previous definition
+  236 | #define LWIP_MARK_TCPIP_THREAD()
+      | 
+In file included from ../stacks/tcpip/lwip/src/include/lwip/sys.h:95,
+                 from ../stacks/tcpip/lwip/src/include/lwip/timeouts.h:44,
+                 from ../stacks/tcpip/lwip/src/include/lwip/tcpip.h:45,
+                 from ../stacks/tcpip/code/ports/netif/ethif/rtd/ethif_port.h:62,
+                 from ../stacks/tcpip/code/apps/netif_shutdown/netif_shutdown.c:30:
+../stacks/tcpip/code/ports/OS/FreeRTOS/arch/sys_arch.h:142: warning: "LWIP_MARK_TCPIP_THREAD" redefined
+  142 | #define LWIP_MARK_TCPIP_THREAD()   sys_mark_tcpip_thread()
+      | 
+In file included from ../stacks/tcpip/lwip/src/include/lwip/netif.h:40,
+                 from ../stacks/tcpip/code/apps/netif_shutdown/netif_shutdown.h:26,
+                 from ../stacks/tcpip/code/apps/netif_shutdown/netif_shutdown.c:22:
+../stacks/tcpip/lwip/src/include/lwip/opt.h:236: note: this is the location of the previous definition
+  236 | #define LWIP_MARK_TCPIP_THREAD()
+      | 
+In file included from ../stacks/tcpip/code/ports/netif/ethif/rtd/ethif_port.h:65,
+                 from ../stacks/tcpip/code/apps/netif_shutdown/netif_shutdown.c:30:
+../RTD/include/OsIf.h:80:6: error: #error "Software Version Numbers of OsIf.h and OsIf_Internal.h are different"
+   80 |     #error "Software Version Numbers of OsIf.h and OsIf_Internal.h are different"
+      |      ^~~~~
+In file included from ../stacks/tcpip/lwip/src/include/lwip/sys.h:95,
+                 from ../stacks/tcpip/lwip/src/include/lwip/timeouts.h:44,
+                 from ../stacks/tcpip/lwip/src/include/lwip/tcpip.h:45,
+                 from ../stacks/tcpip/code/ports/netif/ethif/rtd/ethif_port.c:169:
+../stacks/tcpip/code/ports/OS/FreeRTOS/arch/sys_arch.h:142: warning: "LWIP_MARK_TCPIP_THREAD" redefined
+  142 | #define LWIP_MARK_TCPIP_THREAD()   sys_mark_tcpip_thread()
+      | 
+In file included from ../stacks/tcpip/lwip/src/include/lwip/mem.h:40,
+                 from ../stacks/tcpip/code/ports/netif/ethif/rtd/ethif_port.c:163:
+../stacks/tcpip/lwip/src/include/lwip/opt.h:236: note: this is the location of the previous definition
+  236 | #define LWIP_MARK_TCPIP_THREAD()
+      | 
+In file included from ../stacks/tcpip/lwip/src/include/lwip/sys.h:95,
+                 from ../stacks/tcpip/code/apps/socket_examples/socket_examples.c:9:
+../stacks/tcpip/code/ports/OS/FreeRTOS/arch/sys_arch.h:142: warning: "LWIP_MARK_TCPIP_THREAD" redefined
+  142 | #define LWIP_MARK_TCPIP_THREAD()   sys_mark_tcpip_thread()
+      | 
+In file included from ../stacks/tcpip/code/apps/socket_examples/socket_examples.c:4:
+../stacks/tcpip/lwip/src/include/lwip/opt.h:236: note: this is the location of the previous definition
+  236 | #define LWIP_MARK_TCPIP_THREAD()
+      | 
+In file included from ../stacks/tcpip/code/ports/netif/ethif/rtd/ethif_port.h:65,
+                 from ../stacks/tcpip/code/ports/netif/ethif/rtd/ethif_port.c:174:
+../RTD/include/OsIf.h:80:6: error: #error "Software Version Numbers of OsIf.h and OsIf_Internal.h are different"
+   80 |     #error "Software Version Numbers of OsIf.h and OsIf_Internal.h are different"
+Finished building: ../stacks/tcpip/code/apps/netio/netio.c
+      |      ^~~~~
+Finished building: ../stacks/tcpip/code/apps/httpserver/httpserver-netconn.c
+In file included from ../stacks/tcpip/lwip/src/include/lwip/sys.h:95,
+Finished building: ../stacks/tcpip/code/apps/snmp_private_mib/lwip_prvmib.c
+                 from ../stacks/tcpip/lwip/src/include/lwip/api.h:48,
+                 from ../stacks/tcpip/code/apps/ccov/ccov.c:29:
+../stacks/tcpip/code/ports/OS/FreeRTOS/arch/sys_arch.h:142: warning: "LWIP_MARK_TCPIP_THREAD" redefined
+ 
+  142 | #define LWIP_MARK_TCPIP_THREAD()   sys_mark_tcpip_thread()
+ 
+ 
+      | 
+In file included from ../stacks/tcpip/lwip/src/include/lwip/igmp.h:43,
+                 from ../stacks/tcpip/code/apps/ccov/ccov.c:23:
+../stacks/tcpip/lwip/src/include/lwip/opt.h:236: note: this is the location of the previous definition
+  236 | #define LWIP_MARK_TCPIP_THREAD()
+      | 
+In file included from ../stacks/tcpip/lwip/src/include/lwip/sys.h:95,
+                 from ../stacks/tcpip/lwip/src/include/lwip/api.h:48,
+                 from ../stacks/tcpip/code/apps/shell/shell.c:45:
+../stacks/tcpip/code/ports/OS/FreeRTOS/arch/sys_arch.h:142: warning: "LWIP_MARK_TCPIP_THREAD" redefined
+  142 | #define LWIP_MARK_TCPIP_THREAD()   sys_mark_tcpip_thread()
+      | 
+In file included from ../stacks/tcpip/code/apps/shell/shell.c:35:
+../stacks/tcpip/lwip/src/include/lwip/opt.h:236: note: this is the location of the previous definition
+Finished building: ../stacks/tcpip/code/apps/chargen/chargen.c
+  236 | #define LWIP_MARK_TCPIP_THREAD()
+ 
+      | 
+In file included from ../stacks/tcpip/code/ports/netif/ethif/rtd/ethif_port.h:65,
+                 from ../stacks/tcpip/code/apps/ccov/ccov.c:37:
+../RTD/include/OsIf.h:80:6: error: #error "Software Version Numbers of OsIf.h and OsIf_Internal.h are different"
+   80 |     #error "Software Version Numbers of OsIf.h and OsIf_Internal.h are different"
+      |      ^~~~~
+Finished building: ../stacks/tcpip/code/apps/socket_examples/socket_examples.c
+ 
+make: *** [stacks/tcpip/code/apps/netif_shutdown/subdir.mk:20: stacks/tcpip/code/apps/netif_shutdown/netif_shutdown.o] Error 1
+../stacks/tcpip/code/apps/ccov/ccov.c:186:54: warning: initialization of ‘rx_buff_process_condition_handler_t’ {aka ‘unsigned int (*)(unsigned char,  void *)’} from incompatible pointer type ‘unsigned int (*)(uint8_t,  Gmac_Ip_BufferType *)’ {aka ‘unsigned int (*)(unsigned char,  Gmac_Ip_BufferType *)’} [-Wincompatible-pointer-types]
+Finished building: ../stacks/tcpip/code/apps/rtp/rtp.c
+  186 | static rx_buff_process_condition_handler_t handler = &dummy_ethif_handler;
+ 
+      |                                                      ^
+make: *** [stacks/tcpip/code/apps/ccov/subdir.mk:20: stacks/tcpip/code/apps/ccov/ccov.o] Error 1
+../stacks/tcpip/code/ports/netif/ethif/rtd/ethif_port.c: In function ‘ethif_low_level_output’:
+../stacks/tcpip/code/ports/netif/ethif/rtd/ethif_port.c:269:20: warning: unused variable ‘bufferIndex’ [-Wunused-variable]
+  269 |     Eth_BufIdxType bufferIndex;
+      |                    ^~~~~~~~~~~
+../stacks/tcpip/code/ports/netif/ethif/rtd/ethif_port.c:268:13: warning: unused variable ‘pbuf_chain_type’ [-Wunused-variable]
+  268 |     uint8_t pbuf_chain_type = ETHIF_SINGLE_PBUF;
+      |             ^~~~~~~~~~~~~~~
+make: *** [stacks/tcpip/code/ports/netif/ethif/rtd/subdir.mk:23: stacks/tcpip/code/ports/netif/ethif/rtd/ethif_port.o] Error 1
+Finished building: ../stacks/tcpip/code/apps/shell/shell.c
+ 
+In file included from ../stacks/tcpip/lwip/src/include/lwip/sys.h:95,
+                 from ../stacks/tcpip/lwip/src/include/lwip/timeouts.h:44,
+                 from ../stacks/tcpip/lwip/src/include/lwip/tcpip.h:45,
+                 from ../stacks/tcpip/code/ports/netif/ethif/rtd/ethif_port.h:62,
+                 from ../src/device.c:28:
+../stacks/tcpip/code/ports/OS/FreeRTOS/arch/sys_arch.h:142: warning: "LWIP_MARK_TCPIP_THREAD" redefined
+  142 | #define LWIP_MARK_TCPIP_THREAD()   sys_mark_tcpip_thread()
+      | 
+In file included from ../stacks/tcpip/lwip/src/include/lwip/err.h:39,
+                 from ../stacks/tcpip/code/ports/netif/ethif/rtd/ethif_port.h:61,
+                 from ../src/device.c:28:
+../stacks/tcpip/lwip/src/include/lwip/opt.h:236: note: this is the location of the previous definition
+  236 | #define LWIP_MARK_TCPIP_THREAD()
+      | 
+In file included from ../stacks/tcpip/code/ports/netif/ethif/rtd/ethif_port.h:65,
+                 from ../src/device.c:28:
+../RTD/include/OsIf.h:80:6: error: #error "Software Version Numbers of OsIf.h and OsIf_Internal.h are different"
+   80 |     #error "Software Version Numbers of OsIf.h and OsIf_Internal.h are different"
+      |      ^~~~~
+../src/device.c: In function ‘device_init’:
+../src/device.c:46:29: error: ‘DCM_GPR_DCMRWF2_MAC2_LOOBPACK_CLK_SEL_MASK’ undeclared (first use in this function); did you mean ‘DCM_GPR_DCMRWF2_SAI_MCLK2_SEL_MASK’?
+   46 |      IP_DCM_GPR->DCMRWF2 |= DCM_GPR_DCMRWF2_MAC2_LOOBPACK_CLK_SEL_MASK | DCM_GPR_DCMRWF2_MAC2_TX_RMII_CLK_LPBCK_EN_MASK;
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                             DCM_GPR_DCMRWF2_SAI_MCLK2_SEL_MASK
+../src/device.c:46:29: note: each undeclared identifier is reported only once for each function it appears in
+../src/device.c:46:74: error: ‘DCM_GPR_DCMRWF2_MAC2_TX_RMII_CLK_LPBCK_EN_MASK’ undeclared (first use in this function); did you mean ‘DCM_GPR_DCMRWF1_EMAC_TX_RMII_CLK_LPBCK_EN_MASK’?
+   46 |      IP_DCM_GPR->DCMRWF2 |= DCM_GPR_DCMRWF2_MAC2_LOOBPACK_CLK_SEL_MASK | DCM_GPR_DCMRWF2_MAC2_TX_RMII_CLK_LPBCK_EN_MASK;
+      |                                                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                          DCM_GPR_DCMRWF1_EMAC_TX_RMII_CLK_LPBCK_EN_MASK
+../src/device.c:49:29: error: implicit declaration of function ‘DCM_GPR_DCMRWF4_MAC2_CONF_SEL’; did you mean ‘DCM_GPR_DCMRWF4_EMAC2_CONF_SEL’? [-Werror=implicit-function-declaration]
+   49 |      IP_DCM_GPR->DCMRWF4 |= DCM_GPR_DCMRWF4_MAC2_CONF_SEL(1u);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                             DCM_GPR_DCMRWF4_EMAC2_CONF_SEL
+cc1: some warnings being treated as errors
+make: *** [src/subdir.mk:26: src/device.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+11:55:48 Build Failed. 14 errors, 12 warnings. (took 2s.609ms)
+

@@ -1,0 +1,11 @@
+13:50:47 **** Incremental Build of configuration Debug_FLASH for project multicore_M7_0_1 ****
+make -j12 all 
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley multicore_M7_0_1.elf
+   text	   data	    bss	    dec	    hex	filename
+  24792	   2884	    272	  27948	   6d2c	multicore_M7_0_1.elf
+Finished building: multicore_M7_0_1.siz
+ 
+
+13:50:48 Build Finished. 0 errors, 0 warnings. (took 1s.1ms)
+

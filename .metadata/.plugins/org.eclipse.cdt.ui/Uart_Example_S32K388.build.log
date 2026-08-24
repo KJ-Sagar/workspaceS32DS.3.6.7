@@ -1,0 +1,11 @@
+17:10:47 **** Build of configuration Debug_FLASH for project Uart_Example_S32K388 ****
+make -j12 all 
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley Uart_Example_S32K388.elf
+   text	   data	    bss	    dec	    hex	filename
+  73796	      4	  16972	  90772	  16294	Uart_Example_S32K388.elf
+Finished building: Uart_Example_S32K388.siz
+ 
+
+17:10:48 Build Finished. 0 errors, 0 warnings. (took 516ms)
+

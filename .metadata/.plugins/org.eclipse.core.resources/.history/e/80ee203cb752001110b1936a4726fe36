@@ -1,0 +1,152 @@
+/******************************************************************************
+ *                                                                            *
+ *   FreeRTOS sample application for RTD on S32 platforms                     *
+ *                                                                            *
+ *   Copyright 2024 - 2026 NXP                                                *
+ *                                                                            *
+ ******************************************************************************/
+
+/* Including necessary configuration files. */
+#include "Clock_Ip.h"
+#include "FreeRTOS.h"
+#include "task.h"
+#include "semphr.h"
+#include "CDD_Rm.h"
+
+#define main_TASK_PRIORITY                ( tskIDLE_PRIORITY + 2 )
+
+volatile uint32_t Task0_Core0 = 0;
+volatile uint32_t Task1_Core0 = 0;
+volatile uint32_t Task0_Core1 = 0;
+volatile uint32_t Task1_Core1 = 0;
+TaskHandle_t handle_Task0Core0;
+TaskHandle_t handle_Task1Core0;
+TaskHandle_t handle_Task0Core1;
+TaskHandle_t handle_Task1Core1;
+
+/* Master core signals system init done to rest of the cores */
+__attribute__((section(".mcal_bss_no_cacheable"))) __attribute__((aligned(4))) 
+volatile uint32_t ulSystemInitComplete = 0u;
+
+/**
+* @brief        Task0Core0
+* @details      Task0Core0
+*/
+void Task0Core0( void *pvParameters )
+{
+	(void)pvParameters;
+	TickType_t xLastWakeTime ;
+	const TickType_t xFrequency = 200;
+
+	xLastWakeTime = xTaskGetTickCount();
+	for( ;; )
+	{
+		Task0_Core0++;
+		vTaskDelayUntil(&xLastWakeTime, xFrequency);
+	}
+}
+
+void Task0Core1( void *pvParameters )
+{
+	(void)pvParameters;
+	TickType_t xLastWakeTime ;
+	const TickType_t xFrequency = 200;
+
+	xLastWakeTime = xTaskGetTickCount();
+	for( ;; )
+	{
+		Task0_Core1++;
+		vTaskDelayUntil(&xLastWakeTime, xFrequency);
+	}
+}
+/**
+* @brief        Task1Core0
+* @details      Task1Core0
+*/
+void Task1Core0( void *pvParameters )
+{
+	(void)pvParameters;
+	TickType_t xLastWakeTime ;
+	const TickType_t xFrequency = 200;
+
+	xLastWakeTime = xTaskGetTickCount();
+	for( ;; )
+	{
+		Task1_Core0++;
+		vTaskDelayUntil(&xLastWakeTime, xFrequency);
+	}
+}
+/**
+* @brief       Task1Core1
+* @details     Task1Core1
+*/
+void Task1Core1( void *pvParameters )
+{
+	(void)pvParameters;
+	TickType_t xLastWakeTime ;
+	const TickType_t xFrequency = 200;
+
+	xLastWakeTime = xTaskGetTickCount();
+	for( ;; )
+	{
+		Task1_Core1++;
+		vTaskDelayUntil(&xLastWakeTime, xFrequency);
+	}
+}
+
+
+/**
+* @brief        Main function of the example
+* @details      Initializes the used drivers and
+*               4 tasks
+*/
+
+int main(void)
+{
+    if(vPortGET_CORE_ID() == configCORE_MASTER)
+	{
+	    /* Initialize Clock */
+	    Clock_Ip_StatusType Status_Init_Clock = CLOCK_IP_ERROR;
+	    Status_Init_Clock = Clock_Ip_Init(Clock_Ip_aClockConfig);
+
+	    if (Status_Init_Clock != CLOCK_IP_SUCCESS)
+	    {
+	        while(1); /* Error during initialization. */
+	    }
+
+        /* Initialize RM CDD for XRDC config - needed for SEAM42 use in SMP demo */
+        Rm_Init(NULL_PTR);
+
+        /* Set flag and ensure visibility to rest of the cores */
+        ulSystemInitComplete = 1u;
+        __asm__ volatile("dsb" ::: "memory");
+
+
+	    xTaskCreate( Task0Core0, ( const char * const ) "Task0Core0", configMINIMAL_STACK_SIZE, (void*)0, main_TASK_PRIORITY, &handle_Task0Core0 );
+	    xTaskCreate( Task1Core0, ( const char * const ) "Task1Core0", configMINIMAL_STACK_SIZE, (void*)0, main_TASK_PRIORITY, &handle_Task1Core0 );
+	    xTaskCreate( Task0Core1, ( const char * const ) "Task0Core1", configMINIMAL_STACK_SIZE, (void*)0, main_TASK_PRIORITY, &handle_Task0Core1 );
+	    xTaskCreate( Task1Core1, ( const char * const ) "Task1Core1", configMINIMAL_STACK_SIZE, (void*)0, main_TASK_PRIORITY, &handle_Task1Core1 );
+	    vTaskCoreAffinitySet(handle_Task0Core0, (1 << 0));
+	    vTaskCoreAffinitySet(handle_Task1Core0, (1 << 0));
+	    vTaskCoreAffinitySet(handle_Task0Core1, (1 << 3));
+	    vTaskCoreAffinitySet(handle_Task1Core1, (1 << 3));
+	    vTaskStartScheduler();
+	}
+    else
+    {
+        /* slave core(s) wait(s) for master core to complete system initialization */
+        while( ulSystemInitComplete == 0u )
+        {
+            __asm__ volatile("nop");
+        }
+        __asm__ volatile("dmb" ::: "memory");
+
+        xPortStartScheduler();
+    }
+
+    for( ;; );
+
+    return 0;
+}
+
+/** @} */

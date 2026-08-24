@@ -1,0 +1,11 @@
+11:50:45 **** Build of configuration Debug_FLASH for project FlexCAN_Ip_Example_S32K388 ****
+make -j12 all 
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley FlexCAN_Ip_Example_S32K388.elf
+   text	   data	    bss	    dec	    hex	filename
+  50636	     40	  17192	  67868	  1091c	FlexCAN_Ip_Example_S32K388.elf
+Finished building: FlexCAN_Ip_Example_S32K388.siz
+ 
+
+11:50:45 Build Finished. 0 errors, 0 warnings. (took 557ms)
+

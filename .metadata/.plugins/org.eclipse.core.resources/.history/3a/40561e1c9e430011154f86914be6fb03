@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.pemicro.debug.gdbjtag.pne.launchConfigurationType">
+    <booleanAttribute key="com.nxp.s32ds.ext.cdt.debug.svd.ask_before_clean" value="false"/>
+    <booleanAttribute key="com.nxp.s32ds.ext.cdt.debug.svd.clean_watch_view" value="false"/>
+    <stringAttribute key="com.nxp.s32ds.ext.cdt.debug.svd.merge_strategy" value="ALL"/>
+    <stringAttribute key="com.nxp.s32ds.ext.cdt.debug.svd.svd_path" value=""/>
+    <booleanAttribute key="com.nxp.s32ds.ext.cdt.debug.svd.use_default" value="true"/>
+    <listAttribute key="com.pemicro.debug.gdbjtag.pne.ELVES">
+        <listEntry value="${project_loc:Project_1_M7_0_0}/../Project_1_M7_0_1/Debug_FLASH/Project_1_M7_0_1.elf"/>
+        <listEntry value="${project_loc:Project_1_M7_0_0}/../Project_1_M7_1_0/Debug_FLASH/Project_1_M7_1_0.elf"/>
+        <listEntry value="${project_loc:Project_1_M7_0_0}/../Project_1_M7_2_0/Debug_FLASH/Project_1_M7_2_0.elf"/>
+    </listAttribute>
+    <listAttribute key="com.pemicro.debug.gdbjtag.pne.ELVES_OFFSET">
+        <listEntry value=""/>
+        <listEntry value=""/>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 2 resources" deleteContents="true" description="Delete 2 resources" element1="/FreeRTOS_Toggle_Led_Example_S32K388" element2="/Pwm_example_S32K344" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1781595127159"/>
+</session>

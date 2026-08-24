@@ -1,0 +1,459 @@
+12:56:35 **** Build of configuration Debug_FLASH for project Eth_InternalLoopback_S32K389 ****
+make -j12 all 
+Building file: ../src/main.c
+Building file: ../generate/src/Clock_Ip_Cfg.c
+Building file: ../generate/src/Clock_Ip_VS_0_PBcfg.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+Building file: ../generate/src/Eth_43_GMAC_Ipw_VS_0_PBcfg.c
+arm-none-eabi-gcc "@src/main.args" -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/Clock_Ip_Cfg.args" -MMD -MP -MF"generate/src/Clock_Ip_Cfg.d" -MT"generate/src/Clock_Ip_Cfg.o" -o "generate/src/Clock_Ip_Cfg.o" "../generate/src/Clock_Ip_Cfg.c"
+Building file: ../generate/src/Eth_43_GMAC_VS_0_PBcfg.c
+arm-none-eabi-gcc "@generate/src/Clock_Ip_Cfg.args" -MMD -MP -MF"generate/src/Clock_Ip_VS_0_PBcfg.d" -MT"generate/src/Clock_Ip_VS_0_PBcfg.o" -o "generate/src/Clock_Ip_VS_0_PBcfg.o" "../generate/src/Clock_Ip_VS_0_PBcfg.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/Clock_Ip_Cfg.args" -MMD -MP -MF"generate/src/Eth_43_GMAC_Ipw_VS_0_PBcfg.d" -MT"generate/src/Eth_43_GMAC_Ipw_VS_0_PBcfg.o" -o "generate/src/Eth_43_GMAC_Ipw_VS_0_PBcfg.o" "../generate/src/Eth_43_GMAC_Ipw_VS_0_PBcfg.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/Clock_Ip_Cfg.args" -MMD -MP -MF"generate/src/Eth_43_GMAC_VS_0_PBcfg.d" -MT"generate/src/Eth_43_GMAC_VS_0_PBcfg.o" -o "generate/src/Eth_43_GMAC_VS_0_PBcfg.o" "../generate/src/Eth_43_GMAC_VS_0_PBcfg.c"
+Building file: ../generate/src/Gmac_Ip_Cfg.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/Clock_Ip_Cfg.args" -MMD -MP -MF"generate/src/Gmac_Ip_Cfg.d" -MT"generate/src/Gmac_Ip_Cfg.o" -o "generate/src/Gmac_Ip_Cfg.o" "../generate/src/Gmac_Ip_Cfg.c"
+Building file: ../generate/src/Gmac_Ip_VS_0_PBcfg.c
+Building file: ../generate/src/Igf_Port_Ip_Cfg.c
+Building file: ../generate/src/Igf_Port_Ip_VS_0_PBcfg.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/Clock_Ip_Cfg.args" -MMD -MP -MF"generate/src/Gmac_Ip_VS_0_PBcfg.d" -MT"generate/src/Gmac_Ip_VS_0_PBcfg.o" -o "generate/src/Gmac_Ip_VS_0_PBcfg.o" "../generate/src/Gmac_Ip_VS_0_PBcfg.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/Clock_Ip_Cfg.args" -MMD -MP -MF"generate/src/Igf_Port_Ip_Cfg.d" -MT"generate/src/Igf_Port_Ip_Cfg.o" -o "generate/src/Igf_Port_Ip_Cfg.o" "../generate/src/Igf_Port_Ip_Cfg.c"
+arm-none-eabi-gcc "@generate/src/Clock_Ip_Cfg.args" -MMD -MP -MF"generate/src/Igf_Port_Ip_VS_0_PBcfg.d" -MT"generate/src/Igf_Port_Ip_VS_0_PBcfg.o" -o "generate/src/Igf_Port_Ip_VS_0_PBcfg.o" "../generate/src/Igf_Port_Ip_VS_0_PBcfg.c"
+Building file: ../generate/src/Mcu_Cfg.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/Clock_Ip_Cfg.args" -MMD -MP -MF"generate/src/Mcu_Cfg.d" -MT"generate/src/Mcu_Cfg.o" -o "generate/src/Mcu_Cfg.o" "../generate/src/Mcu_Cfg.c"
+Building file: ../generate/src/Mcu_VS_0_PBcfg.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/Clock_Ip_Cfg.args" -MMD -MP -MF"generate/src/Mcu_VS_0_PBcfg.d" -MT"generate/src/Mcu_VS_0_PBcfg.o" -o "generate/src/Mcu_VS_0_PBcfg.o" "../generate/src/Mcu_VS_0_PBcfg.c"
+Building file: ../generate/src/OsIf_Cfg.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/Clock_Ip_Cfg.args" -MMD -MP -MF"generate/src/OsIf_Cfg.d" -MT"generate/src/OsIf_Cfg.o" -o "generate/src/OsIf_Cfg.o" "../generate/src/OsIf_Cfg.c"
+Finished building: ../generate/src/OsIf_Cfg.c
+ 
+Building file: ../generate/src/Port_Cfg.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/Clock_Ip_Cfg.args" -MMD -MP -MF"generate/src/Port_Cfg.d" -MT"generate/src/Port_Cfg.o" -o "generate/src/Port_Cfg.o" "../generate/src/Port_Cfg.c"
+Finished building: ../generate/src/Igf_Port_Ip_Cfg.c
+ 
+Building file: ../generate/src/Port_VS_0_PBcfg.c
+Finished building: ../generate/src/Igf_Port_Ip_VS_0_PBcfg.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/Clock_Ip_Cfg.args" -MMD -MP -MF"generate/src/Port_VS_0_PBcfg.d" -MT"generate/src/Port_VS_0_PBcfg.o" -o "generate/src/Port_VS_0_PBcfg.o" "../generate/src/Port_VS_0_PBcfg.c"
+ 
+Building file: ../generate/src/Power_Ip_Cfg.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/Clock_Ip_Cfg.args" -MMD -MP -MF"generate/src/Power_Ip_Cfg.d" -MT"generate/src/Power_Ip_Cfg.o" -o "generate/src/Power_Ip_Cfg.o" "../generate/src/Power_Ip_Cfg.c"
+Finished building: ../generate/src/Gmac_Ip_Cfg.c
+Finished building: ../generate/src/Eth_43_GMAC_VS_0_PBcfg.c
+ 
+ 
+Building file: ../generate/src/Power_Ip_VS_0_PBcfg.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/Clock_Ip_Cfg.args" -MMD -MP -MF"generate/src/Power_Ip_VS_0_PBcfg.d" -MT"generate/src/Power_Ip_VS_0_PBcfg.o" -o "generate/src/Power_Ip_VS_0_PBcfg.o" "../generate/src/Power_Ip_VS_0_PBcfg.c"
+Building file: ../generate/src/Ram_Ip_Cfg.c
+Finished building: ../generate/src/Eth_43_GMAC_Ipw_VS_0_PBcfg.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/Clock_Ip_Cfg.args" -MMD -MP -MF"generate/src/Ram_Ip_Cfg.d" -MT"generate/src/Ram_Ip_Cfg.o" -o "generate/src/Ram_Ip_Cfg.o" "../generate/src/Ram_Ip_Cfg.c"
+ 
+Building file: ../generate/src/Ram_Ip_VS_0_PBcfg.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/Clock_Ip_Cfg.args" -MMD -MP -MF"generate/src/Ram_Ip_VS_0_PBcfg.d" -MT"generate/src/Ram_Ip_VS_0_PBcfg.o" -o "generate/src/Ram_Ip_VS_0_PBcfg.o" "../generate/src/Ram_Ip_VS_0_PBcfg.c"
+Finished building: ../generate/src/Gmac_Ip_VS_0_PBcfg.c
+ 
+Building file: ../generate/src/Siul2_Port_Ip_VS_0_PBcfg.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/Clock_Ip_Cfg.args" -MMD -MP -MF"generate/src/Siul2_Port_Ip_VS_0_PBcfg.d" -MT"generate/src/Siul2_Port_Ip_VS_0_PBcfg.o" -o "generate/src/Siul2_Port_Ip_VS_0_PBcfg.o" "../generate/src/Siul2_Port_Ip_VS_0_PBcfg.c"
+Finished building: ../generate/src/Clock_Ip_Cfg.c
+ 
+Building file: ../generate/src/Tspc_Port_Ip_VS_0_PBcfg.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@generate/src/Clock_Ip_Cfg.args" -MMD -MP -MF"generate/src/Tspc_Port_Ip_VS_0_PBcfg.d" -MT"generate/src/Tspc_Port_Ip_VS_0_PBcfg.o" -o "generate/src/Tspc_Port_Ip_VS_0_PBcfg.o" "../generate/src/Tspc_Port_Ip_VS_0_PBcfg.c"
+Finished building: ../generate/src/Power_Ip_Cfg.c
+ 
+Building file: ../board/Siul2_Port_Ip_Cfg.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@board/Siul2_Port_Ip_Cfg.args" -MMD -MP -MF"board/Siul2_Port_Ip_Cfg.d" -MT"board/Siul2_Port_Ip_Cfg.o" -o "board/Siul2_Port_Ip_Cfg.o" "../board/Siul2_Port_Ip_Cfg.c"
+Finished building: ../generate/src/Mcu_VS_0_PBcfg.c
+Finished building: ../generate/src/Clock_Ip_VS_0_PBcfg.c
+ 
+ 
+Building file: ../board/Tspc_Port_Ip_Cfg.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@board/Siul2_Port_Ip_Cfg.args" -MMD -MP -MF"board/Tspc_Port_Ip_Cfg.d" -MT"board/Tspc_Port_Ip_Cfg.o" -o "board/Tspc_Port_Ip_Cfg.o" "../board/Tspc_Port_Ip_Cfg.c"
+Building file: ../board/dcf_config.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@board/Siul2_Port_Ip_Cfg.args" -MMD -MP -MF"board/dcf_config.d" -MT"board/dcf_config.o" -o "board/dcf_config.o" "../board/dcf_config.c"
+Finished building: ../generate/src/Ram_Ip_VS_0_PBcfg.c
+ 
+Building file: ../board/ivt_config.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@board/Siul2_Port_Ip_Cfg.args" -MMD -MP -MF"board/ivt_config.d" -MT"board/ivt_config.o" -o "board/ivt_config.o" "../board/ivt_config.c"
+Finished building: ../generate/src/Mcu_Cfg.c
+ 
+Building file: ../RTD/src/Clock_Ip.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Clock_Ip.d" -MT"RTD/src/Clock_Ip.o" -o "RTD/src/Clock_Ip.o" "../RTD/src/Clock_Ip.c"
+Finished building: ../generate/src/Ram_Ip_Cfg.c
+ 
+Building file: ../RTD/src/Clock_Ip_Data.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Clock_Ip_Data.d" -MT"RTD/src/Clock_Ip_Data.o" -o "RTD/src/Clock_Ip_Data.o" "../RTD/src/Clock_Ip_Data.c"
+Finished building: ../board/dcf_config.c
+ 
+Building file: ../RTD/src/Clock_Ip_Divider.c
+Finished building: ../board/ivt_config.c
+Finished building: ../generate/src/Power_Ip_VS_0_PBcfg.c
+Finished building: ../board/Tspc_Port_Ip_Cfg.c
+Invoking: Standard S32DS C Compiler
+ 
+ 
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Clock_Ip_Divider.d" -MT"RTD/src/Clock_Ip_Divider.o" -o "RTD/src/Clock_Ip_Divider.o" "../RTD/src/Clock_Ip_Divider.c"
+ 
+Building file: ../RTD/src/Clock_Ip_DividerTrigger.c
+Building file: ../RTD/src/Clock_Ip_ExtOsc.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Clock_Ip_DividerTrigger.d" -MT"RTD/src/Clock_Ip_DividerTrigger.o" -o "RTD/src/Clock_Ip_DividerTrigger.o" "../RTD/src/Clock_Ip_DividerTrigger.c"
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Clock_Ip_ExtOsc.d" -MT"RTD/src/Clock_Ip_ExtOsc.o" -o "RTD/src/Clock_Ip_ExtOsc.o" "../RTD/src/Clock_Ip_ExtOsc.c"
+Building file: ../RTD/src/Clock_Ip_FracDiv.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Clock_Ip_FracDiv.d" -MT"RTD/src/Clock_Ip_FracDiv.o" -o "RTD/src/Clock_Ip_FracDiv.o" "../RTD/src/Clock_Ip_FracDiv.c"
+Finished building: ../board/Siul2_Port_Ip_Cfg.c
+Finished building: ../generate/src/Siul2_Port_Ip_VS_0_PBcfg.c
+Finished building: ../generate/src/Tspc_Port_Ip_VS_0_PBcfg.c
+ 
+ 
+ 
+Building file: ../RTD/src/Clock_Ip_Frequency.c
+Building file: ../RTD/src/Clock_Ip_Gate.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Clock_Ip_Frequency.d" -MT"RTD/src/Clock_Ip_Frequency.o" -o "RTD/src/Clock_Ip_Frequency.o" "../RTD/src/Clock_Ip_Frequency.c"
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Clock_Ip_Gate.d" -MT"RTD/src/Clock_Ip_Gate.o" -o "RTD/src/Clock_Ip_Gate.o" "../RTD/src/Clock_Ip_Gate.c"
+Building file: ../RTD/src/Clock_Ip_IntOsc.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Clock_Ip_IntOsc.d" -MT"RTD/src/Clock_Ip_IntOsc.o" -o "RTD/src/Clock_Ip_IntOsc.o" "../RTD/src/Clock_Ip_IntOsc.c"
+Finished building: ../generate/src/Port_VS_0_PBcfg.c
+ 
+Finished building: ../generate/src/Port_Cfg.c
+Building file: ../RTD/src/Clock_Ip_Irq.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Clock_Ip_Irq.d" -MT"RTD/src/Clock_Ip_Irq.o" -o "RTD/src/Clock_Ip_Irq.o" "../RTD/src/Clock_Ip_Irq.c"
+ 
+Building file: ../RTD/src/Clock_Ip_Monitor.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Clock_Ip_Monitor.d" -MT"RTD/src/Clock_Ip_Monitor.o" -o "RTD/src/Clock_Ip_Monitor.o" "../RTD/src/Clock_Ip_Monitor.c"
+Finished building: ../src/main.c
+ 
+Building file: ../RTD/src/Clock_Ip_Pll.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Clock_Ip_Pll.d" -MT"RTD/src/Clock_Ip_Pll.o" -o "RTD/src/Clock_Ip_Pll.o" "../RTD/src/Clock_Ip_Pll.c"
+Finished building: ../RTD/src/Clock_Ip_Data.c
+ 
+Building file: ../RTD/src/Clock_Ip_ProgFreqSwitch.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Clock_Ip_ProgFreqSwitch.d" -MT"RTD/src/Clock_Ip_ProgFreqSwitch.o" -o "RTD/src/Clock_Ip_ProgFreqSwitch.o" "../RTD/src/Clock_Ip_ProgFreqSwitch.c"
+Finished building: ../RTD/src/Clock_Ip_FracDiv.c
+ 
+Building file: ../RTD/src/Clock_Ip_Selector.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Clock_Ip_Selector.d" -MT"RTD/src/Clock_Ip_Selector.o" -o "RTD/src/Clock_Ip_Selector.o" "../RTD/src/Clock_Ip_Selector.c"
+Finished building: ../RTD/src/Clock_Ip_Divider.c
+Finished building: ../RTD/src/Clock_Ip_DividerTrigger.c
+ 
+ 
+Building file: ../RTD/src/Clock_Ip_Specific.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Clock_Ip_Specific.d" -MT"RTD/src/Clock_Ip_Specific.o" -o "RTD/src/Clock_Ip_Specific.o" "../RTD/src/Clock_Ip_Specific.c"
+Building file: ../RTD/src/Dem.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Dem.d" -MT"RTD/src/Dem.o" -o "RTD/src/Dem.o" "../RTD/src/Dem.c"
+Finished building: ../RTD/src/Clock_Ip_Irq.c
+ 
+Building file: ../RTD/src/Dem_stub.c
+Finished building: ../RTD/src/Clock_Ip_IntOsc.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Dem_stub.d" -MT"RTD/src/Dem_stub.o" -o "RTD/src/Dem_stub.o" "../RTD/src/Dem_stub.c"
+Finished building: ../RTD/src/Clock_Ip_ExtOsc.c
+ 
+ 
+Building file: ../RTD/src/Det.c
+Building file: ../RTD/src/Det_stub.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Det.d" -MT"RTD/src/Det.o" -o "RTD/src/Det.o" "../RTD/src/Det.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Det_stub.d" -MT"RTD/src/Det_stub.o" -o "RTD/src/Det_stub.o" "../RTD/src/Det_stub.c"
+Finished building: ../RTD/src/Clock_Ip_Gate.c
+ 
+Building file: ../RTD/src/EthIf.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/EthIf.d" -MT"RTD/src/EthIf.o" -o "RTD/src/EthIf.o" "../RTD/src/EthIf.c"
+Finished building: ../RTD/src/EthIf.c
+ 
+Building file: ../RTD/src/EthSwt.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/EthSwt.d" -MT"RTD/src/EthSwt.o" -o "RTD/src/EthSwt.o" "../RTD/src/EthSwt.c"
+Finished building: ../RTD/src/Clock_Ip_Monitor.c
+ 
+Building file: ../RTD/src/EthTrcv.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/EthTrcv.d" -MT"RTD/src/EthTrcv.o" -o "RTD/src/EthTrcv.o" "../RTD/src/EthTrcv.c"
+Finished building: ../RTD/src/EthSwt.c
+ 
+Building file: ../RTD/src/Eth_43_GMAC.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Eth_43_GMAC.d" -MT"RTD/src/Eth_43_GMAC.o" -o "RTD/src/Eth_43_GMAC.o" "../RTD/src/Eth_43_GMAC.c"
+Finished building: ../RTD/src/Clock_Ip.c
+Finished building: ../RTD/src/Dem.c
+ 
+ 
+Finished building: ../RTD/src/Clock_Ip_Pll.c
+Building file: ../RTD/src/Eth_43_GMAC_Ipw_Irq.c
+Building file: ../RTD/src/Eth_43_GMAC_Ipw.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Eth_43_GMAC_Ipw.d" -MT"RTD/src/Eth_43_GMAC_Ipw.o" -o "RTD/src/Eth_43_GMAC_Ipw.o" "../RTD/src/Eth_43_GMAC_Ipw.c"
+ 
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Eth_43_GMAC_Ipw_Irq.d" -MT"RTD/src/Eth_43_GMAC_Ipw_Irq.o" -o "RTD/src/Eth_43_GMAC_Ipw_Irq.o" "../RTD/src/Eth_43_GMAC_Ipw_Irq.c"
+Building file: ../RTD/src/Eth_43_GMAC_Irq.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Eth_43_GMAC_Irq.d" -MT"RTD/src/Eth_43_GMAC_Irq.o" -o "RTD/src/Eth_43_GMAC_Irq.o" "../RTD/src/Eth_43_GMAC_Irq.c"
+Finished building: ../RTD/src/Dem_stub.c
+ 
+Building file: ../RTD/src/Gmac_Ip.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Gmac_Ip.d" -MT"RTD/src/Gmac_Ip.o" -o "RTD/src/Gmac_Ip.o" "../RTD/src/Gmac_Ip.c"
+Finished building: ../RTD/src/Det_stub.c
+ 
+Building file: ../RTD/src/Gmac_Ip_Hw_Access.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Gmac_Ip_Hw_Access.d" -MT"RTD/src/Gmac_Ip_Hw_Access.o" -o "RTD/src/Gmac_Ip_Hw_Access.o" "../RTD/src/Gmac_Ip_Hw_Access.c"
+Finished building: ../RTD/src/EthTrcv.c
+ 
+Building file: ../RTD/src/Gmac_Ip_Irq.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Gmac_Ip_Irq.d" -MT"RTD/src/Gmac_Ip_Irq.o" -o "RTD/src/Gmac_Ip_Irq.o" "../RTD/src/Gmac_Ip_Irq.c"
+Finished building: ../RTD/src/Clock_Ip_ProgFreqSwitch.c
+ 
+Building file: ../RTD/src/Igf_Port_Ip.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Igf_Port_Ip.d" -MT"RTD/src/Igf_Port_Ip.o" -o "RTD/src/Igf_Port_Ip.o" "../RTD/src/Igf_Port_Ip.c"
+Finished building: ../RTD/src/Clock_Ip_Selector.c
+ 
+Building file: ../RTD/src/Mcu.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Mcu.d" -MT"RTD/src/Mcu.o" -o "RTD/src/Mcu.o" "../RTD/src/Mcu.c"
+Finished building: ../RTD/src/Eth_43_GMAC_Irq.c
+ 
+Building file: ../RTD/src/Mcu_Dem_Wrapper.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Mcu_Dem_Wrapper.d" -MT"RTD/src/Mcu_Dem_Wrapper.o" -o "RTD/src/Mcu_Dem_Wrapper.o" "../RTD/src/Mcu_Dem_Wrapper.c"
+Finished building: ../RTD/src/Det.c
+ 
+Building file: ../RTD/src/Mcu_Ipw.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Mcu_Ipw.d" -MT"RTD/src/Mcu_Ipw.o" -o "RTD/src/Mcu_Ipw.o" "../RTD/src/Mcu_Ipw.c"
+Finished building: ../RTD/src/Eth_43_GMAC_Ipw_Irq.c
+ 
+Building file: ../RTD/src/OsIf_Interrupts.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/OsIf_Interrupts.d" -MT"RTD/src/OsIf_Interrupts.o" -o "RTD/src/OsIf_Interrupts.o" "../RTD/src/OsIf_Interrupts.c"
+Finished building: ../RTD/src/Igf_Port_Ip.c
+ 
+Building file: ../RTD/src/OsIf_Software_Semaphore.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/OsIf_Software_Semaphore.d" -MT"RTD/src/OsIf_Software_Semaphore.o" -o "RTD/src/OsIf_Software_Semaphore.o" "../RTD/src/OsIf_Software_Semaphore.c"
+Finished building: ../RTD/src/OsIf_Interrupts.c
+ 
+Building file: ../RTD/src/OsIf_Timer.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/OsIf_Timer.d" -MT"RTD/src/OsIf_Timer.o" -o "RTD/src/OsIf_Timer.o" "../RTD/src/OsIf_Timer.c"
+Finished building: ../RTD/src/Gmac_Ip_Irq.c
+Finished building: ../RTD/src/OsIf_Software_Semaphore.c
+ 
+ 
+Finished building: ../RTD/src/Clock_Ip_Specific.c
+ 
+Building file: ../RTD/src/OsIf_Timer_System.c
+Building file: ../RTD/src/OsIf_Timer_System_Internal_Systick.c
+Building file: ../RTD/src/Port.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/OsIf_Timer_System.d" -MT"RTD/src/OsIf_Timer_System.o" -o "RTD/src/OsIf_Timer_System.o" "../RTD/src/OsIf_Timer_System.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/OsIf_Timer_System_Internal_Systick.d" -MT"RTD/src/OsIf_Timer_System_Internal_Systick.o" -o "RTD/src/OsIf_Timer_System_Internal_Systick.o" "../RTD/src/OsIf_Timer_System_Internal_Systick.c"
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Port.d" -MT"RTD/src/Port.o" -o "RTD/src/Port.o" "../RTD/src/Port.c"
+Finished building: ../RTD/src/Mcu_Dem_Wrapper.c
+ 
+Building file: ../RTD/src/Port_Ipw.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Port_Ipw.d" -MT"RTD/src/Port_Ipw.o" -o "RTD/src/Port_Ipw.o" "../RTD/src/Port_Ipw.c"
+Finished building: ../RTD/src/Eth_43_GMAC_Ipw.c
+ 
+Building file: ../RTD/src/Power_Ip.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Power_Ip.d" -MT"RTD/src/Power_Ip.o" -o "RTD/src/Power_Ip.o" "../RTD/src/Power_Ip.c"
+Finished building: ../RTD/src/OsIf_Timer_System.c
+ 
+Building file: ../RTD/src/Power_Ip_AEC.c
+Invoking: Standard S32DS C Compiler
+Finished building: ../RTD/src/OsIf_Timer_System_Internal_Systick.c
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Power_Ip_AEC.d" -MT"RTD/src/Power_Ip_AEC.o" -o "RTD/src/Power_Ip_AEC.o" "../RTD/src/Power_Ip_AEC.c"
+ 
+Building file: ../RTD/src/Power_Ip_CortexM7.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Power_Ip_CortexM7.d" -MT"RTD/src/Power_Ip_CortexM7.o" -o "RTD/src/Power_Ip_CortexM7.o" "../RTD/src/Power_Ip_CortexM7.c"
+Finished building: ../RTD/src/OsIf_Timer.c
+ 
+Building file: ../RTD/src/Power_Ip_DCM_GPR.c
+Finished building: ../RTD/src/Gmac_Ip_Hw_Access.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Power_Ip_DCM_GPR.d" -MT"RTD/src/Power_Ip_DCM_GPR.o" -o "RTD/src/Power_Ip_DCM_GPR.o" "../RTD/src/Power_Ip_DCM_GPR.c"
+ 
+Building file: ../RTD/src/Power_Ip_FLASH.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Power_Ip_FLASH.d" -MT"RTD/src/Power_Ip_FLASH.o" -o "RTD/src/Power_Ip_FLASH.o" "../RTD/src/Power_Ip_FLASH.c"
+Finished building: ../RTD/src/Mcu.c
+ 
+Building file: ../RTD/src/Power_Ip_MC_ME.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Power_Ip_MC_ME.d" -MT"RTD/src/Power_Ip_MC_ME.o" -o "RTD/src/Power_Ip_MC_ME.o" "../RTD/src/Power_Ip_MC_ME.c"
+Finished building: ../RTD/src/Clock_Ip_Frequency.c
+ 
+Building file: ../RTD/src/Power_Ip_MC_RGM.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Power_Ip_MC_RGM.d" -MT"RTD/src/Power_Ip_MC_RGM.o" -o "RTD/src/Power_Ip_MC_RGM.o" "../RTD/src/Power_Ip_MC_RGM.c"
+Finished building: ../RTD/src/Eth_43_GMAC.c
+ 
+Building file: ../RTD/src/Power_Ip_MC_RGM_Irq.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Power_Ip_MC_RGM_Irq.d" -MT"RTD/src/Power_Ip_MC_RGM_Irq.o" -o "RTD/src/Power_Ip_MC_RGM_Irq.o" "../RTD/src/Power_Ip_MC_RGM_Irq.c"
+Finished building: ../RTD/src/Power_Ip_FLASH.c
+ 
+Building file: ../RTD/src/Power_Ip_PMC.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Power_Ip_PMC.d" -MT"RTD/src/Power_Ip_PMC.o" -o "RTD/src/Power_Ip_PMC.o" "../RTD/src/Power_Ip_PMC.c"
+Finished building: ../RTD/src/Power_Ip_CortexM7.c
+ 
+Building file: ../RTD/src/Power_Ip_PMC_Irq.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Power_Ip_PMC_Irq.d" -MT"RTD/src/Power_Ip_PMC_Irq.o" -o "RTD/src/Power_Ip_PMC_Irq.o" "../RTD/src/Power_Ip_PMC_Irq.c"
+Finished building: ../RTD/src/Power_Ip_AEC.c
+Finished building: ../RTD/src/Mcu_Ipw.c
+ 
+ 
+Building file: ../RTD/src/Power_Ip_Private.c
+Building file: ../RTD/src/Ram_Ip.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Ram_Ip.d" -MT"RTD/src/Ram_Ip.o" -o "RTD/src/Ram_Ip.o" "../RTD/src/Ram_Ip.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Power_Ip_Private.d" -MT"RTD/src/Power_Ip_Private.o" -o "RTD/src/Power_Ip_Private.o" "../RTD/src/Power_Ip_Private.c"
+Finished building: ../RTD/src/Power_Ip_DCM_GPR.c
+ 
+Building file: ../RTD/src/SchM_BaseNXP.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/SchM_BaseNXP.d" -MT"RTD/src/SchM_BaseNXP.o" -o "RTD/src/SchM_BaseNXP.o" "../RTD/src/SchM_BaseNXP.c"
+Finished building: ../RTD/src/Power_Ip_MC_RGM_Irq.c
+ 
+Building file: ../RTD/src/SchM_Eth_43_GMAC.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/SchM_Eth_43_GMAC.d" -MT"RTD/src/SchM_Eth_43_GMAC.o" -o "RTD/src/SchM_Eth_43_GMAC.o" "../RTD/src/SchM_Eth_43_GMAC.c"
+Finished building: ../RTD/src/Power_Ip.c
+ 
+Building file: ../RTD/src/SchM_Mcu.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/SchM_Mcu.d" -MT"RTD/src/SchM_Mcu.o" -o "RTD/src/SchM_Mcu.o" "../RTD/src/SchM_Mcu.c"
+Finished building: ../RTD/src/Power_Ip_PMC_Irq.c
+ 
+Building file: ../RTD/src/SchM_Port.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/SchM_Port.d" -MT"RTD/src/SchM_Port.o" -o "RTD/src/SchM_Port.o" "../RTD/src/SchM_Port.c"
+Finished building: ../RTD/src/Port.c
+ 
+Building file: ../RTD/src/Siul2_Port_Ip.c
+Finished building: ../RTD/src/SchM_BaseNXP.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Siul2_Port_Ip.d" -MT"RTD/src/Siul2_Port_Ip.o" -o "RTD/src/Siul2_Port_Ip.o" "../RTD/src/Siul2_Port_Ip.c"
+ 
+Building file: ../RTD/src/Tspc_Port_Ip.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@RTD/src/Clock_Ip.args" -MMD -MP -MF"RTD/src/Tspc_Port_Ip.d" -MT"RTD/src/Tspc_Port_Ip.o" -o "RTD/src/Tspc_Port_Ip.o" "../RTD/src/Tspc_Port_Ip.c"
+Finished building: ../RTD/src/Power_Ip_MC_ME.c
+ 
+Building file: ../Project_Settings/Startup_Code/Vector_Table.s
+Finished building: ../RTD/src/Power_Ip_PMC.c
+Invoking: Standard S32DS Assembler
+arm-none-eabi-gcc "@Project_Settings/Startup_Code/Vector_Table.args" -o "Project_Settings/Startup_Code/Vector_Table.o" "../Project_Settings/Startup_Code/Vector_Table.s"
+ 
+Building file: ../Project_Settings/Startup_Code/exceptions.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Project_Settings/Startup_Code/exceptions.args" -MMD -MP -MF"Project_Settings/Startup_Code/exceptions.d" -MT"Project_Settings/Startup_Code/exceptions.o" -o "Project_Settings/Startup_Code/exceptions.o" "../Project_Settings/Startup_Code/exceptions.c"
+Finished building: ../RTD/src/Power_Ip_Private.c
+Finished building: ../RTD/src/Ram_Ip.c
+ 
+ 
+Building file: ../Project_Settings/Startup_Code/nvic.c
+Building file: ../Project_Settings/Startup_Code/startup.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Project_Settings/Startup_Code/exceptions.args" -MMD -MP -MF"Project_Settings/Startup_Code/startup.d" -MT"Project_Settings/Startup_Code/startup.o" -o "Project_Settings/Startup_Code/startup.o" "../Project_Settings/Startup_Code/startup.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Project_Settings/Startup_Code/exceptions.args" -MMD -MP -MF"Project_Settings/Startup_Code/nvic.d" -MT"Project_Settings/Startup_Code/nvic.o" -o "Project_Settings/Startup_Code/nvic.o" "../Project_Settings/Startup_Code/nvic.c"
+Finished building: ../Project_Settings/Startup_Code/Vector_Table.s
+ 
+Finished building: ../RTD/src/Power_Ip_MC_RGM.c
+Building file: ../Project_Settings/Startup_Code/startup_cm7.s
+ 
+Invoking: Standard S32DS Assembler
+arm-none-eabi-gcc "@Project_Settings/Startup_Code/Vector_Table.args" -o "Project_Settings/Startup_Code/startup_cm7.o" "../Project_Settings/Startup_Code/startup_cm7.s"
+Building file: ../Project_Settings/Startup_Code/system.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Project_Settings/Startup_Code/exceptions.args" -MMD -MP -MF"Project_Settings/Startup_Code/system.d" -MT"Project_Settings/Startup_Code/system.o" -o "Project_Settings/Startup_Code/system.o" "../Project_Settings/Startup_Code/system.c"
+Finished building: ../RTD/src/Port_Ipw.c
+ 
+Finished building: ../Project_Settings/Startup_Code/startup_cm7.s
+Finished building: ../RTD/src/SchM_Mcu.c
+ 
+ 
+Finished building: ../RTD/src/SchM_Eth_43_GMAC.c
+ 
+Finished building: ../RTD/src/Gmac_Ip.c
+ 
+Finished building: ../Project_Settings/Startup_Code/exceptions.c
+ 
+Finished building: ../Project_Settings/Startup_Code/startup.c
+ 
+Finished building: ../Project_Settings/Startup_Code/nvic.c
+ 
+Finished building: ../Project_Settings/Startup_Code/system.c
+ 
+Finished building: ../RTD/src/Tspc_Port_Ip.c
+ 
+Finished building: ../RTD/src/Siul2_Port_Ip.c
+ 
+Finished building: ../RTD/src/SchM_Port.c
+ 
+Building target: Eth_InternalLoopback_S32K389.elf
+Invoking: Standard S32DS C Linker
+arm-none-eabi-gcc -o "Eth_InternalLoopback_S32K389.elf" "@Eth_InternalLoopback_S32K389.args"  
+/home/kj/NXP/S32DS.3.6.7/S32DS/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/bin/ld: warning: /home/kj/NXP/S32DS.3.6.7/S32DS/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memmove.o) uses variable-size enums yet the output is to use 32-bit enums; use of enum values across objects may fail
+/home/kj/NXP/S32DS.3.6.7/S32DS/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/bin/ld: warning: /home/kj/NXP/S32DS.3.6.7/S32DS/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o) uses variable-size enums yet the output is to use 32-bit enums; use of enum values across objects may fail
+/home/kj/NXP/S32DS.3.6.7/S32DS/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/../../../../arm-none-eabi/bin/ld: warning: /home/kj/NXP/S32DS.3.6.7/S32DS/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/bin/../lib/gcc/arm-none-eabi/10.2.0/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o) uses variable-size enums yet the output is to use 32-bit enums; use of enum values across objects may fail
+Finished building target: Eth_InternalLoopback_S32K389.elf
+ 
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley Eth_InternalLoopback_S32K389.elf
+   text	   data	    bss	    dec	    hex	filename
+  83640	      4	  16904	 100548	  188c4	Eth_InternalLoopback_S32K389.elf
+Finished building: Eth_InternalLoopback_S32K389.siz
+ 
+
+12:56:41 Build Finished. 0 errors, 0 warnings. (took 6s.96ms)
+
