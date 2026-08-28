@@ -2,7 +2,7 @@ LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
 activeLaunchTarget=null\:---
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:Uart_Example_S32K388.elf,org.eclipse.launchbar.core.descriptorType.default\:S32K388_FlexCAN_Non_Loopback_Debug_FLASH_PNE,org.eclipse.launchbar.core.descriptorType.default\:Gmac_Ip_InternalLoopback_S32K388_Debug_FLASH_PNE
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Uart_Example_S32K388.elf,org.eclipse.launchbar.core.descriptorType.default\:S32K388_FlexCAN_Non_Loopback_Debug_FLASH_PNE,org.eclipse.launchbar.core.descriptorType.default\:Gmac_Ip_NON_Loopback_S32K388_Debug_FLASH_PNE
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Can_Example_S32K388_Debug_FLASH_PNE/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:Can_Example_S32K388_Debug_FLASH_PNE/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

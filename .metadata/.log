@@ -6313,3 +6313,443 @@ Missing right bracket ')' at position: 125, in expression:
 
 !ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:49:40.433
 !MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:54:50.189
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.9.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:54:50.207
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.10.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:54:50.228
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.11.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:54:50.246
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.12.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:54:50.262
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.13.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:54:50.280
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.14.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:54:50.298
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.15.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:54:50.313
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.16.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:54:54.514
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.17.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:54:54.532
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.18.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:54:54.545
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.19.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:54:54.562
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.20.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:54:54.579
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.21.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:54:54.593
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.22.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:54:54.609
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.23.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:54:54.625
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.24.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:54:54.641
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.25.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:54:54.654
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.26.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:54:54.669
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.27.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:54:54.684
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.28.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:54:54.698
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.29.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:54:54.713
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.30.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:32.441
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.9.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:33.935
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.10.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:43.385
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.10.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:43.403
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.11.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:43.418
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.12.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:43.434
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.13.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:43.451
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.14.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:43.464
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.15.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:43.476
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.16.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:46.404
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.17.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:46.428
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.18.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:46.454
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.19.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:46.477
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.20.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:46.500
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.21.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:46.520
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.22.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:46.543
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.23.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:46.552
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.24.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:46.562
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.25.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:46.585
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.26.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:46.595
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.27.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:46.614
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.28.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:46.622
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.29.PortPinPcr" that is of type "InfoSetting" which is not supported
+
+!ENTRY com.nxp.swtools.resourcetables.model.config 4 0 2026-08-28 11:55:46.631
+!MESSAGE [DATA] [Siul2_Port] Trying to apply item defaults or quick selection on setting with id "Siul2_Port.PortConfigSet.PortContainer.0.PortPin.30.PortPinPcr" that is of type "InfoSetting" which is not supported
+!SESSION 2026-08-28 11:56:06.712 -----------------------------------------------
+eclipse.buildId=3.6.7.202604202203
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2026-08-28 11:56:13.234
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-08-28 11:56:13.234
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.call.hierarchy,Open Call Hierarchy,
+		Open a call hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.open.call.hierarchy"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(com.freescale.core.ide.commanderView.importFromACH,Import Project from Application Code Hub,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		WorkbenchHandlerServiceHandler("com.freescale.core.ide.commanderView.importFromACH"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-08-28 11:56:13.234
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.debug.ui.commands.Execute"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(com.nxp.swtools.clocks.commands.unlockAll,Unlock All Settings,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		WorkbenchHandlerServiceHandler("com.nxp.swtools.clocks.commands.unlockAll"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 0 2026-08-28 11:56:15.594
+!MESSAGE Startup class com.freescale.sa.ui.preferences.SAPreferenceInitializer must implement org.eclipse.ui.IStartup
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2026-08-28 11:56:24.433
+!MESSAGE Duplicate pack S32 Configuration Tools Package,1.8.8 in Available S32DS Site will be show last
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2026-08-28 11:56:24.449
+!MESSAGE Duplicate pack S32 Configuration Tools Package,1.9.0 in Available S32DS Site will be show last
+
+!ENTRY com.nxp.s32ds.rcp.modular.core 2 0 2026-08-28 11:56:31.972
+!MESSAGE Duplicate pack S32 Configuration Tools Package,1.9.4 in Available S32DS Site will be show last
+
+!ENTRY com.nxp.swtools.serdes.codegen 4 0 2026-08-28 11:56:36.357
+!MESSAGE [TOOL] No script file found while trying to recompile the codegeneration script for SerDes Config Tool
+
+!ENTRY com.nxp.swtools.serdes.codegen 4 0 2026-08-28 11:56:36.372
+!MESSAGE [TOOL] No script file found while trying to recompile the codegeneration script for SerDes Config Tool
+
+!ENTRY com.nxp.swtools.common.utils.expression 4 0 2026-08-28 11:56:36.914
+!MESSAGE Error in expression parsing.
+Missing right bracket ')' at position: 125, in expression: 
+(featureDefined(`FEATURE_MEM_INFLS_HEADER`) &&                          (getFeature(`FEATURE_MEM_INFLS_HEADER`) == `S32K388`)
+                                                                                                                             ˄
+
+!ENTRY com.nxp.swtools.common.utils.expression 4 0 2026-08-28 11:56:37.107
+!MESSAGE Error in expression parsing.
+Missing right bracket ')' at position: 125, in expression: 
+(featureDefined(`FEATURE_MEM_INFLS_HEADER`) &&                          (getFeature(`FEATURE_MEM_INFLS_HEADER`) == `S32K388`)
+                                                                                                                             ˄
+
+!ENTRY com.nxp.swtools.common.utils.expression 4 0 2026-08-28 11:56:38.101
+!MESSAGE Error in expression parsing.
+Missing right bracket ')' at position: 125, in expression: 
+(featureDefined(`FEATURE_MEM_INFLS_HEADER`) &&                          (getFeature(`FEATURE_MEM_INFLS_HEADER`) == `S32K388`)
+                                                                                                                             ˄
+
+!ENTRY com.nxp.swtools.common.utils.expression 4 0 2026-08-28 11:56:38.196
+!MESSAGE Error in expression parsing.
+Missing right bracket ')' at position: 125, in expression: 
+(featureDefined(`FEATURE_MEM_INFLS_HEADER`) &&                          (getFeature(`FEATURE_MEM_INFLS_HEADER`) == `S32K388`)
+                                                                                                                             ˄
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:39.851
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:39.868
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:39.882
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:39.900
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:39.927
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:39.948
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:39.969
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:39.986
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:40.003
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:40.017
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:40.031
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:40.054
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:40.067
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:40.078
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:40.088
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:40.108
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:40.119
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:40.130
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:40.144
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:40.176
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:40.184
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:40.200
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:40.224
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:40.239
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:40.253
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:40.269
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.utils.scripting 4 0 2026-08-28 11:56:40.286
+!MESSAGE Problem occurred during invocation of function Port_GetNumOfPinConfig: TypeError: null has no such function "getChildren" in <eval> at line number 166
+
+!ENTRY com.nxp.swtools.serdes.codegen 4 0 2026-08-28 12:01:37.573
+!MESSAGE [TOOL] No script file found while trying to recompile the codegeneration script for SerDes Config Tool
+
+!ENTRY com.nxp.s32ds.cle.cdt.ui 4 0 2026-08-28 12:01:38.451
+!MESSAGE Resource '/Gmac_Ip_InternalLoopback_S32K388' does not exist.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/Gmac_Ip_InternalLoopback_S32K388)[368]: java.lang.Exception: Resource '/Gmac_Ip_InternalLoopback_S32K388' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:367)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:241)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:183)
+	at org.eclipse.core.internal.resources.Resource.findMarkers(Resource.java:1031)
+	at com.nxp.s32ds.cdt.ui.viewsupport.DNDLabelProvider.getImage(DNDLabelProvider.java:50)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findImage(NavigatorContentServiceLabelProvider.java:204)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getColumnImage(NavigatorContentServiceLabelProvider.java:112)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getImage(NavigatorContentServiceLabelProvider.java:104)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getImage(NavigatorDecoratingLabelProvider.java:63)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getImage(DelegatingStyledCellLabelProvider.java:198)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getImage(DecoratingStyledCellLabelProvider.java:171)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:124)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:134)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:146)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:983)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:130)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1058)
+	at org.eclipse.ui.navigator.CommonViewer.doUpdateItem(CommonViewer.java:402)
+	at org.eclipse.ui.internal.navigator.resources.ResourceToItemsMapper.updateItem(ResourceToItemsMapper.java:153)
+	at org.eclipse.ui.internal.navigator.resources.ResourceToItemsMapper.objectChanged(ResourceToItemsMapper.java:141)
+	at org.eclipse.ui.navigator.CommonViewer.handleLabelProviderChanged(CommonViewer.java:228)
+	at org.eclipse.jface.viewers.ContentViewer$1.labelProviderChanged(ContentViewer.java:95)
+	at org.eclipse.jface.viewers.BaseLabelProvider$1.run(BaseLabelProvider.java:75)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.BaseLabelProvider.fireLabelProviderChanged(BaseLabelProvider.java:72)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.lambda$0(DecoratorManager.java:351)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.fireListener(DecoratorManager.java:351)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$3.runInUIThread(DecorationScheduler.java:560)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5039)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4519)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2026-08-28 12:01:38.453
+!MESSAGE Resource '/Gmac_Ip_InternalLoopback_S32K388' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/Gmac_Ip_InternalLoopback_S32K388' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:367)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:241)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:183)
+	at org.eclipse.core.internal.resources.Resource.findMarkers(Resource.java:1031)
+	at com.nxp.s32ds.cdt.ui.viewsupport.DNDLabelProvider.getImage(DNDLabelProvider.java:50)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findImage(NavigatorContentServiceLabelProvider.java:204)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getColumnImage(NavigatorContentServiceLabelProvider.java:112)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getImage(NavigatorContentServiceLabelProvider.java:104)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getImage(NavigatorDecoratingLabelProvider.java:63)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getImage(DelegatingStyledCellLabelProvider.java:198)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getImage(DecoratingStyledCellLabelProvider.java:171)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.update(DelegatingStyledCellLabelProvider.java:124)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.update(DecoratingStyledCellLabelProvider.java:134)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:146)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:983)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:130)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1058)
+	at org.eclipse.ui.navigator.CommonViewer.doUpdateItem(CommonViewer.java:402)
+	at org.eclipse.ui.internal.navigator.resources.ResourceToItemsMapper.updateItem(ResourceToItemsMapper.java:153)
+	at org.eclipse.ui.internal.navigator.resources.ResourceToItemsMapper.objectChanged(ResourceToItemsMapper.java:141)
+	at org.eclipse.ui.navigator.CommonViewer.handleLabelProviderChanged(CommonViewer.java:228)
+	at org.eclipse.jface.viewers.ContentViewer$1.labelProviderChanged(ContentViewer.java:95)
+	at org.eclipse.jface.viewers.BaseLabelProvider$1.run(BaseLabelProvider.java:75)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.BaseLabelProvider.fireLabelProviderChanged(BaseLabelProvider.java:72)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.lambda$0(DecoratorManager.java:351)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.DecoratorManager.fireListener(DecoratorManager.java:351)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$3.runInUIThread(DecorationScheduler.java:560)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5039)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4519)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-08-28 12:02:05.193
+!MESSAGE Indexed 'Gmac_Ip_NON_Loopback_S32K388' (46 sources, 191 headers) in 5.67 sec: 6,753 declarations; 34,768 references; 0 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.0024%)
