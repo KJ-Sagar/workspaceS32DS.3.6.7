@@ -122,6 +122,5 @@ pathvariable.PLATFORMSDK_S32K3_S32K396_M7_0_2_7_0_1_PATH=/home/kj/NXP/S32DS.3.6.
 pathvariable.PLATFORMSDK_S32K3_S32M274_M7_7_0_1_PATH=/home/kj/NXP/S32DS.3.6.7/S32DS/software/PlatformSDK_S32K3
 pathvariable.PLATFORMSDK_S32K3_S32M276_M7_7_0_1_PATH=/home/kj/NXP/S32DS.3.6.7/S32DS/software/PlatformSDK_S32K3
 pathvariable.PLATFORM_PLATFORMSDK_S32K3=/home/kj/NXP/S32DS.3.6.7/S32DS/software/PlatformSDK_S32K3/RTD/Platform_TS_T40D34M30I0R0
-pathvariable.PlatformSDK_S32K3=/home/kj/NXP/S32DS.3.6.7/S32DS/software/PlatformSDK_S32K3
 pathvariable.common=/home/kj/NXP/S32DS.3.6.7/S32DS/software/common
 version=1
